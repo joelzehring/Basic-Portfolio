@@ -16,7 +16,7 @@ body {
 	min-height: 100vh;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	background: url("../../assets/images/gplaypattern.png");
+	background: url("../../assets/images/gplaypattern.png") top left / 25%;
 	display: flex;
 	flex-direction: column;
 }
@@ -130,7 +130,7 @@ footer p {
 }
 
 .project:hover {
-	box-shadow: 5px 5px 150px #ddd inset, -5px -5px 150px #ddd inset;
+	box-shadow: 5px 5px 150px #fff inset, -5px -5px 150px #fff inset;
 
 }
 
@@ -147,9 +147,6 @@ footer p {
 	url("../../assets/images/biblemem.png")
 	top left / 200%
 	no-repeat;
-}
-
-.project1:hover {
 }
 
 .project2 {
